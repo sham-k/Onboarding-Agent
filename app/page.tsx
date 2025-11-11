@@ -4,7 +4,7 @@ import "@/app/globals.css";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [form, setForm] = useState({ Name: "", Email: "", Summary: "", Tone: "" });
+  const [form, setForm] = useState({ Name: "", Email: "", Summary: "", Tone: "", Goal: "" });
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState("");
   const [displayedText, setDisplayedText] = useState("");
